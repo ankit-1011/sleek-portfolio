@@ -53,9 +53,9 @@ export const skillComponents = {
 
 export const heroConfig = {
   // Personal Information
-  name: 'Ram',
+  name: 'Ankit',
   title: 'A Full Stack web developer.',
-  avatar: '/assets/logo.png',
+  avatar: '/assets/logo.jpg',
 
   // Skills Configuration
   skills: [
@@ -89,7 +89,7 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Framer motion</b>, driven by a keen eye for design.',
   },
 
   // Buttons Configuration
@@ -113,22 +113,22 @@ export const heroConfig = {
 export const socialLinks = [
   {
     name: 'X',
-    href: 'https://x.com/ramxcodes',
+    href: 'https://x.com/AnRekt_1101',
     icon: <X />,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ramxcodes/',
+    href: 'http://linkedin.com/in/ankit-mishra-7594b02b1',
     icon: <LinkedIn />,
   },
   {
     name: 'Github',
-    href: 'https://github.com/ramxcodes',
+    href: 'https://github.com/ankit-1011',
     icon: <Github />,
   },
   {
     name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
+    href: 'mailto:ankitmishra16127@gmail.com',
     icon: <Mail />,
   },
 ];

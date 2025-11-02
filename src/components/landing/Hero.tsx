@@ -29,7 +29,7 @@ export default function Hero() {
           skillComponents[part.skill.component as keyof typeof skillComponents];
         return (
           <Skill key={part.key} name={part.skill.name} href={part.skill.href}>
-            <SkillComponent />
+            <SkillComponent/>
           </Skill>
         );
       } else if (part.type === 'bold' && 'text' in part) {

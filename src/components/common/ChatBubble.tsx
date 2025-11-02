@@ -274,7 +274,10 @@ const ChatBubble: React.FC = () => {
         </div>
       </ExpandableChatHeader>
 
-      <ExpandableChatBody>
+<ExpandableChatBody className='flex justify-center items-center '>
+  Chatbot is still building...
+</ExpandableChatBody>
+      {/* <ExpandableChatBody>
         <ScrollArea ref={scrollAreaRef} className="h-full p-4">
           <div className="space-y-4">
             {messages.map((message) => (
@@ -352,7 +355,7 @@ const ChatBubble: React.FC = () => {
               </div>
             ))}
 
-            {/* Show suggestions only when conversation just started */}
+            Show suggestions only when conversation just started
             {messages.length === 1 && !isLoading && (
               <div className="space-y-2">
                 <p className="text-xs text-muted-foreground px-3">
@@ -375,7 +378,7 @@ const ChatBubble: React.FC = () => {
             )}
           </div>
         </ScrollArea>
-      </ExpandableChatBody>
+      </ExpandableChatBody> */}
 
       <ExpandableChatFooter>
         <div className="flex space-x-2">
@@ -387,7 +390,7 @@ const ChatBubble: React.FC = () => {
             disabled={isLoading}
             className="flex-1"
           />
-          <Button
+          {/* <Button
             size="sm"
             onClick={handleSendMessage}
             disabled={!newMessage.trim() || isLoading}
@@ -397,7 +400,7 @@ const ChatBubble: React.FC = () => {
             ) : (
               <SendIcon className="h-4 w-4" />
             )}
-          </Button>
+          </Button> */}
         </div>
       </ExpandableChatFooter>
     </ExpandableChat>
