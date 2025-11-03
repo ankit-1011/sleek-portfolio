@@ -27,7 +27,7 @@ import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
-import Bun from '@/components/technologies/Bun';
+import Pnpm from '@/components/technologies/Pnpm';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
@@ -37,18 +37,24 @@ import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
 // Technology Components
 import TypeScript from '@/components/technologies/TypeScript';
+import Solidity from '@/components/technologies/Solidity';
+import Hardhat from '@/components/technologies/Hardhat';
+import Ethers from '@/components/technologies/Ethers';
 
 // Component mapping for skills
 export const skillComponents = {
   TypeScript: TypeScript,
   ReactIcon: ReactIcon,
   NextJs: NextJs,
-  Bun: Bun,
+  Pnpm: Pnpm,
   PostgreSQL: PostgreSQL,
   NodeJs: NodeJs,
   MongoDB: MongoDB,
   Prisma: Prisma,
   JavaScript: JavaScript,
+  Solidity:Solidity,
+  Hardhat: Hardhat,
+  Ethers:Ethers
 };
 
 export const heroConfig = {
@@ -75,21 +81,36 @@ export const heroConfig = {
       component: 'NextJs',
     },
     {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
+      name: 'Pnpm',
+      href: 'https://pnpm.io/',
+      component: 'Pnpm',
     },
     {
       name: 'PostgreSQL',
       href: 'https://www.postgresql.org/',
       component: 'PostgreSQL',
     },
+    {
+      name:"Solidity",
+      href:"https://docs.soliditylang.org/",
+      component: 'Solidity',
+    },
+    {
+      name:"Hardhat",
+      href:"https://hardhat.org/",
+      component: 'Hardhat',
+    },
+    {
+      name:"Ethers.js",
+      href:"https://docs.ethers.org/v5/",
+      component: 'Ethers',
+    }
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Framer motion</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Framer motion</b> & part-time Blockchain coder with {skills:5}, {skills:6} & {skills:7}.',
   },
 
   // Buttons Configuration

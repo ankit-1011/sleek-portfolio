@@ -1,5 +1,5 @@
 export const footerConfig = {
   developer: 'Ankit',
-  text: 'Design & Developed by',
+  text: 'Made with ❤️ by',
   copyright: 'All rights reserved.',
 };

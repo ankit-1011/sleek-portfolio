@@ -1,4 +1,4 @@
-import Bun from '@/components/technologies/Bun';
+import Bun from '@/components/technologies/Pnpm';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 // Import technology components

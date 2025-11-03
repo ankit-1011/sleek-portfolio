@@ -1,6 +1,6 @@
 import AWS from '@/components/technologies/AWS';
 import BootStrap from '@/components/technologies/BootStrap';
-import Bun from '@/components/technologies/Bun';
+import Bun from '@/components/technologies/Pnpm';
 import CSS from '@/components/technologies/CSS';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Figma from '@/components/technologies/Figma';

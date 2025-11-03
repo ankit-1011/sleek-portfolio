@@ -1,5 +1,5 @@
 import Appwrite from '@/components/technologies/Appwrite';
-import Bun from '@/components/technologies/Bun';
+import Bun from '@/components/technologies/Pnpm';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/technologies/Github';
 import MDXIcon from '@/components/technologies/MDXIcon';
