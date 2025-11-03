@@ -1,0 +1,84 @@
+import { Badge } from '@/components/ui/badge'
+import { CodeBlock } from '@/components/ui/code-block'
+
+export const metadata = {
+  title: 'TrustBallot – Blockchain Voting System',
+  description: 'A decentralized, transparent, and tamper-proof voting platform built with Solidity, Hardhat, and React.',
+  tags: ['Blockchain', 'Voting', 'Solidity', 'Hardhat', 'React', 'Web3', 'Decentralization'],
+}
+
+# 🗳️ TrustBallot: Decentralized Voting Made Real
+
+<Badge variant="outline">Solidity</Badge>  
+<Badge variant="outline">Hardhat</Badge>  
+<Badge variant="outline">React</Badge>  
+<Badge variant="outline">RainbowKit</Badge>  
+<Badge variant="outline">Ethers.js</Badge>
+
+## 🔍 Overview
+
+TrustBallot is a secure, transparent, and censorship-resistant voting system built on Ethereum. It empowers communities to conduct tamper-proof elections using smart contracts and wallet-based authentication.
+
+> 🇮🇳 Hindi Hook: "अब वोटिंग में कोई धांधली नहीं – TrustBallot से हर वोट का हिसाब पक्का!"
+
+## 🧱 Tech Stack
+
+- **Smart Contracts**: Written in Solidity, deployed via Hardhat
+- **Frontend**: React + TailwindCSS + RainbowKit for wallet connection
+- **Backend**: Ethers.js integration for contract reads/writes
+- **Security**: Role-based access, vote hashing, and timestamping
+
+## 🔐 Features
+
+- 🗳️ **One person, one vote** – verified via wallet address
+- 🔍 **Transparent results** – anyone can audit the vote count
+- 🛡️ **Immutable records** – votes stored on-chain
+- 🧑‍💻 **Admin dashboard** – create elections, manage candidates
+- 🌐 **Multilingual UI** – English + Hindi toggles for accessibility
+
+## 🚀 How It Works
+
+1. **Admin creates election** via dashboard
+2. **Candidates registered** with metadata
+3. **Users connect wallet** and cast vote
+4. **Smart contract records vote** and prevents double voting
+5. **Results displayed** in real-time with on-chain verification
+
+<CodeBlock language="solidity" title="Vote.sol">
+{`function castVote(uint electionId, uint candidateId) public {
+  require(!hasVoted[msg.sender][electionId], "Already voted");
+  votes[electionId][candidateId]++;
+  hasVoted[msg.sender][electionId] = true;
+}`}
+</CodeBlock>
+
+## 📸 Screenshots
+
+- Election creation form
+- Candidate list UI
+- Wallet connect modal (RainbowKit)
+- Vote confirmation toast
+- Result chart (Bar/Donut)
+
+## 📦 Future Plans
+
+- zk-SNARKs for anonymous voting
+- IPFS for storing candidate metadata
+- Gasless voting via meta-transactions
+- Integration with Digilocker for identity verification
+
+## 🧠 Learnings
+
+- Solidity modifiers for access control
+- Ethers.js contract event listeners
+- Frontend ↔ Smart contract sync via hooks
+- UI/UX for trust and clarity in civic tech
+
+## 🧵 Related Threads
+
+- [🧵 Solidity Voting Contract Explained (Hindi)](https://twitter.com/yourhandle)
+- [🧵 RainbowKit + Ethers.js Integration](https://twitter.com/yourhandle)
+
+---
+
+Want help turning this into a carousel, reel script, or bilingual tutorial next? I can help storyboard it with meme hooks and emoji-powered transitions 🎬✨
