@@ -86,7 +86,7 @@ export const projects: Project[] = [
     live: 'https://airbnb-web-clone.vercel.app/',
     details: true,
     projectDetailsPageSlug: 'https://github.com/ankit-1011/WanderLust.git',
-    isWorking: true, // Currently in development
+    isWorking: true, 
   },
    {
       title: 'GreenCart',
@@ -106,6 +106,6 @@ export const projects: Project[] = [
     live: 'https://quick-ai-rouge-gamma.vercel.app/',
     details: true,
     projectDetailsPageSlug: 'https://github.com/ankit-1011/greencart.git',
-    isWorking: true, // Currently in development
+    isWorking: true, 
   },
 ];
