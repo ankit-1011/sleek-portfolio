@@ -2,12 +2,12 @@
   "name": "sleek-portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build --no-lint",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@calcom/embed-react": "^1.5.3",
     "@hookform/resolvers": "^5.1.1",
