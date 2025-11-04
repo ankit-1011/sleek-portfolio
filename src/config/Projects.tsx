@@ -92,7 +92,7 @@ export const projects: Project[] = [
       title: 'GreenCart',
     description:
       'GreenCart is a full-stack eco-commerce platform designed to promote sustainable shopping and efficient waste management.',
-    image: greencart,
+    image: '/project/GreenCart.png',
     video: "",
     link: 'https://quick-ai-rouge-gamma.vercel.app/',
     technologies: [
