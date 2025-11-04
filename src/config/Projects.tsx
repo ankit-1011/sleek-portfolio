@@ -24,7 +24,7 @@ import Ethers from '@/components/technologies/Ethers';
 import Solidity from '@/components/technologies/Solidity';
 import Hardhat from '@/components/technologies/Hardhat';
 import JavaScript from '@/components/technologies/JavaScript';
-
+import greencart from "../../public/project/GreenCart.png";
 export const projects: Project[] = [
    {
       title: 'QuickAI',
@@ -92,7 +92,7 @@ export const projects: Project[] = [
       title: 'GreenCart',
     description:
       'GreenCart is a full-stack eco-commerce platform designed to promote sustainable shopping and efficient waste management.',
-    image: '/project/GreenCart.png',
+    image: greencart,
     video: "",
     link: 'https://quick-ai-rouge-gamma.vercel.app/',
     technologies: [
