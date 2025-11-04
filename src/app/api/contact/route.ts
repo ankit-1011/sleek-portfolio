@@ -115,10 +115,12 @@ ${data.message.trim()}
     } else {
       const errorText = await response.text();
       console.error('Failed to send to Telegram:', errorText);
+      console.log(telegramToken 
+  +telegramChatId);
       return false;
     }
   } catch (error) {
-    console.error('Error sending to Telegram:', error);
+    console.error();
     return false;
   }
 }

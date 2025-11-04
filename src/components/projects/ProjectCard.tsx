@@ -161,7 +161,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             href={project.projectDetailsPageSlug}
             className="text-secondary flex items-center gap-2 text-sm hover:underline underline-offset-4 hover:text-primary transition-colors"
           >
-            View Details <ArrowRight className="size-4" />
+            Github Link <ArrowRight className="size-4" />
           </Link>
         </CardFooter>
       )}

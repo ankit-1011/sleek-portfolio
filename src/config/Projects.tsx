@@ -43,7 +43,7 @@ export const projects: Project[] = [
     ],
     live: 'https://quick-ai-rouge-gamma.vercel.app/',
     details: true,
-    projectDetailsPageSlug: '',
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/Quick.AI.git',
     isWorking: true, // Currently in development
   },
   {
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     ],
     live: 'https://github.com/ankit-1011/TrustBallot.git',
     details: true,
-    projectDetailsPageSlug: '../data/projects/TrustBallot.mdx',
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/TrustBallot.git',
     isWorking: false, // Currently in development
   },
    {
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     ],
     live: 'https://airbnb-web-clone.vercel.app/',
     details: true,
-    projectDetailsPageSlug: '../data/TrustBallot.mdx',
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/WanderLust.git',
     isWorking: true, // Currently in development
   },
    {
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     ],
     live: 'https://quick-ai-rouge-gamma.vercel.app/',
     details: true,
-    projectDetailsPageSlug: '../data/projects/TrustBallot.mdx',
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/greencart.git',
     isWorking: true, // Currently in development
   },
 ];

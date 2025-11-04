@@ -16,7 +16,7 @@ export const navbarConfig = {
       href: '/work-experience',
     },
     {
-      label: 'Events',
+      label: 'Events_Hosted',
       href: '/events',
     },
     {
