@@ -33,9 +33,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Card className="group h-full w-full overflow-hidden transition-all p-0 border-gray-100 dark:border-gray-800 shadow-none">
       <CardHeader className="p-0">
-        <div className="group relative aspect-video overflow-hidden">
+        <div className="group relative aspect-video ">
           <Image
-            className="h-full w-full object-cover"
+            className="h-full w-full "
             src={project.image}
             alt={project.title}
             width={1920}
