@@ -52,7 +52,7 @@ export const projects: Project[] = [
       'TrustBallot is a blockchain-based decentralized voting platform designed to provide secure, transparent, and tamper-proof elections.',
     image: '/project/trustballot.png',
     video: "",
-    link: 'https://github.com/ankit-1011/TrustBallot.git',
+    link: 'https://trust-ballot.vercel.app/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
