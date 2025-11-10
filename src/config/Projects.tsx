@@ -94,7 +94,7 @@ export const projects: Project[] = [
       'GreenCart is a full-stack eco-commerce platform designed to promote sustainable shopping and efficient waste management.',
     image: '/project/GreenCart.png',
     video: "",
-    link: 'https://quick-ai-rouge-gamma.vercel.app/',
+    link: 'greencart-web.vercel.app',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'Javascript', icon: <JavaScript key="javascript" /> },
@@ -103,7 +103,7 @@ export const projects: Project[] = [
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
     ],
-    live: 'https://quick-ai-rouge-gamma.vercel.app/',
+    live: 'greencart-web.vercel.app',
     details: true,
     projectDetailsPageSlug: 'https://github.com/ankit-1011/greencart.git',
     isWorking: true, 
