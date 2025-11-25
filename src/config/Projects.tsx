@@ -32,7 +32,7 @@ export const projects: Project[] = [
       'Quick.AI is an AI-powered content creation platform designed to help users generate articles, images, and optimize content with ease and speed.',
     image: '/project/QuickAI.png',
     video: "",
-    link: 'https://quick-ai-rouge-gamma.vercel.app/',
+    link: 'https://quickai-gs.vercel.app/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'Javascript', icon: <JavaScript key="javascript" /> },
@@ -94,7 +94,7 @@ export const projects: Project[] = [
       'GreenCart is a full-stack eco-commerce platform designed to promote sustainable shopping and efficient waste management.',
     image: '/project/GreenCart.png',
     video: "",
-    link: 'greencart-web.vercel.app',
+    link: 'greencart-gs.vercel.app',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'Javascript', icon: <JavaScript key="javascript" /> },
@@ -103,7 +103,7 @@ export const projects: Project[] = [
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
     ],
-    live: 'greencart-web.vercel.app',
+    live: 'greencart-gs.vercel.app',
     details: true,
     projectDetailsPageSlug: 'https://github.com/ankit-1011/greencart.git',
     isWorking: true, 
