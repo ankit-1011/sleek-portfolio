@@ -18,6 +18,7 @@ import TailwindCss from '@/components/technologies/TailwindCss';
 import TypeScript from '@/components/technologies/TypeScript';
 import Vercel from '@/components/technologies/Vercel';
 import Pnpm from '@/components/technologies/Pnpm';
+import Angular from '@/components/technologies/Angular';
 
 export interface Technology {
   name: string;
@@ -43,6 +44,49 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
+  {
+    isCurrent: true,
+    isBlur: false,
+    company: 'Dionce Technology Pvt Ltd',
+    position: 'Angular Developer Intern',
+    location: '(Remote)',
+    image: '/company/dionce_logo.jpg',
+    description: [
+      'Build and maintain UI components using Angular (modules, components, services).Work with Angular forms (reactive & template-driven) and routing.',
+      'Consume RESTful APIs using HttpClient and handle asynchronous data with RxJS.',
+      'Implement state management using NgRx or services for efficient data flow & two-way binding, signals, computed signals, and contextual variables if your team is exploring modern Angular features.',
+      'Bug Fixing & Debugging & Resolve UI issues like duplicate rendering, spacing, responsiveness, or deployment errors.Debug TypeScript errors and improve code readability.',
+      'Collaborate with backend developers to integrate APIs and ensure seamless data flow.',
+      'Participate in code reviews, learn best practices, and follow company coding standards.',
+    ],
+    startDate: 'December 2025',
+    endDate: 'Present',
+    technologies: [
+      {
+        name: 'Angular',
+        href: 'https://angular.dev/',
+        icon: <Angular/>,
+      },
+      {
+        name: 'Tailwind CSS',
+        href: 'https://tailwindcss.com/',
+        icon: <TailwindCss />,
+      },
+      {
+        name: 'TypeScript',
+        href: 'https://typescriptlang.org/',
+        icon: <TypeScript />,
+      },
+      {
+        name: 'React',
+        href: 'https://react.dev/',
+        icon: <ReactIcon />,
+      },
+    ],
+    website: '#',
+    github: '#',
+    x: '#',
+  },
   {
     isCurrent: false,
     isBlur: false,
@@ -92,11 +136,12 @@ export const experiences: Experience[] = [
       {
         name: 'pnpm',
         href: 'https://pnpm.io/',
-        icon: <Pnpm/>,
+        icon: <Pnpm />,
       },
     ],
     website: '#',
     github: '#',
     x: '#',
   },
+
 ];

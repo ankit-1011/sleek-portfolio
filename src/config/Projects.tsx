@@ -67,7 +67,7 @@ export const projects: Project[] = [
     live: 'https://github.com/ankit-1011/TrustBallot.git',
     details: true,
     projectDetailsPageSlug: 'https://github.com/ankit-1011/TrustBallot.git',
-    isWorking: false, // Currently in development
+    isWorking: true, // Currently in development
   },
    {
     title: 'Airbnb-clone',
