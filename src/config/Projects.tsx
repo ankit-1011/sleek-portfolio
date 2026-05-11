@@ -24,39 +24,41 @@ import Ethers from '@/components/technologies/Ethers';
 import Solidity from '@/components/technologies/Solidity';
 import Hardhat from '@/components/technologies/Hardhat';
 import JavaScript from '@/components/technologies/JavaScript';
-import greencart from "../../public/project/GreenCart.png";
 export const projects: Project[] = [
-   {
-      title: 'QuickAI',
+  {
+    title: 'DocuLEX',
     description:
-      'Quick.AI is an AI-powered content creation platform designed to help users generate articles, images, and optimize content with ease and speed.',
-    image: '/project/QuickAI.png',
+      'DocuLex is a next-generation high-code documentation & registration platform designed for courts, advocates, and legal workflows. It leverages AI, Blockchain,(ZK) Proofs to securely manage, verify, register & retrieve legal & official documents',
+    image: '/project/DocuLEX.png',
     video: "",
-    link: 'https://quickai-gs.vercel.app/',
+    link: 'https://docu-lex.vercel.app/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
-      { name: 'Javascript', icon: <JavaScript key="javascript" /> },
-      { name: 'psql', icon: <PostgreSQL key="postgresql"/> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'postgresql', icon: <PostgreSQL key="postgresql" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
+      { name: 'ethers', icon: <Ethers key="ethers" /> },
+      { name: 'Solidity', icon: <Solidity key="solidity" /> },
+      { name: 'Hardhat', icon: <Hardhat key="hardhat" /> },
     ],
-    live: 'https://quick-ai-rouge-gamma.vercel.app/',
+    live: 'https://github.com/ankit-1011/DocuLEX.git',
     details: true,
-    projectDetailsPageSlug: 'https://github.com/ankit-1011/Quick.AI.git',
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/DocuLEX.git',
     isWorking: true, // Currently in development
   },
   {
     title: 'TrustBallot',
     description:
       'TrustBallot is a blockchain-based decentralized voting platform designed to provide secure, transparent, and tamper-proof elections.',
-    image: '/project/trustballot.png',
+    image: '/project/TrustBallot.png',
     video: "",
-    link: 'https://trust-ballot.vercel.app/',
+    link: 'https://trust-ballot-zujo.vercel.app/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'mongodb', icon: <MongoDB key="mongodb"/> },
+      { name: 'mongodb', icon: <MongoDB key="mongodb" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
@@ -69,43 +71,24 @@ export const projects: Project[] = [
     projectDetailsPageSlug: 'https://github.com/ankit-1011/TrustBallot.git',
     isWorking: true, // Currently in development
   },
-   {
-    title: 'Airbnb-clone',
+  {
+    title: 'QuickAI',
     description:
-      'An Airbnb clone is a full-stack web application that replicates the core features of Airbnb, allowing users to search, book, and list rental properties.',
-    image: '/project/WanderLust.png',
+      'Quick.AI is an AI-powered content creation platform designed to help users generate articles, images, and optimize content with ease and speed.',
+    image: '/project/QuickAI.png',
     video: "",
-    link: 'https://airbnb-web-clone.vercel.app/',
-    technologies: [
-      { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'mongodb', icon: <MongoDB key="mongodb"/> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
-    ],
-    live: 'https://airbnb-web-clone.vercel.app/',
-    details: true,
-    projectDetailsPageSlug: 'https://github.com/ankit-1011/WanderLust.git',
-    isWorking: true, 
-  },
-   {
-      title: 'GreenCart',
-    description:
-      'GreenCart is a full-stack eco-commerce platform designed to promote sustainable shopping and efficient waste management.',
-    image: '/project/GreenCart.png',
-    video: "",
-    link: 'greencart-gs.vercel.app',
+    link: 'https://quickai-gs.vercel.app/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="reactjs" /> },
       { name: 'Javascript', icon: <JavaScript key="javascript" /> },
-      { name: 'mongodb', icon: <MongoDB key="mongodb"/> },
+      { name: 'psql', icon: <PostgreSQL key="postgresql" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
     ],
-    live: 'greencart-gs.vercel.app',
+    live: 'https://quick-ai-rouge-gamma.vercel.app/',
     details: true,
-    projectDetailsPageSlug: 'https://github.com/ankit-1011/greencart.git',
-    isWorking: true, 
-  },
+    projectDetailsPageSlug: 'https://github.com/ankit-1011/Quick.AI.git',
+    isWorking: true, // Currently in development
+  }
 ];
