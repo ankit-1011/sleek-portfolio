@@ -48,7 +48,7 @@ export const experiences: Experience[] = [
     isCurrent: true,
     isBlur: false,
     company: 'Dionce Technology Pvt Ltd',
-    position: 'Frontend Developer Intern',
+    position: 'Frontend Developer',
     location: '(Remote)',
     image: '/company/dionce_logo.jpg',
     description: [
